@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #FAFBFB;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#0a0a0a ;
+    display: block;
+}
+.collapsible {
+    background-color:#F19AB2;
+    color: #0a0a0a;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #C6F4F0;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #DEE1E5;
+  }
+/* Content area styles */
+content {
+    margin-left: 0;
+    transition: margin-left 0.3s;
+    padding: 20px;
+}
+main {
+    padding: 10px;
+}
+
+.post-section {
+    background-color: #C6F4F0;
+    padding: 20px;
+    height: 400px;
+    margin-left: 150px;
+    width: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #F19AB2;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #C6F4F0;
+}
+footer {
+    background-color: #706e6e;
+    color: #0c0c0c;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+#abc{
+    color: #F19AB2;
+    width: 100px;
+ }
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    color: #55acee; 
+} 
